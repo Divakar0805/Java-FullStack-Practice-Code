@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean class="constructorinj.Metro" id="m1">
+    <constructor-arg name="arrived" value="central"/>
+    <constructor-arg name="destination" value="airport"/>
+    <constructor-arg name="traveltime" value="30min"/>
+    <constructor-arg name="cost" value="32"/>
+    <constructor-arg name="stopname">
+    <list>
+    <value>egmore</value>
+    <value>Nehru Park</value>
+    <value>Kilpauk</value>
+    <value>Pachaiyappa's College</value>
+    <value>Shenoy Nagar</value>
+    <value>Anna Nagar East</value>
+    <value>Anna Nagar Tower</value>
+    <value>Thirumangalam</value>
+    <value>Koyambedu</value>
+    <value>CMBT</value>
+    <value>Arumbakkam</value>
+    <value>Vadapalani</value>
+    <value>Ashok Nagar</value>
+    <value>Ekkattuthangal</value>
+    <value>Alandur</value>
+    <value>Nanganallur Road</value>
+    <value>Meenambakkam</value>
+    </list>
+    </constructor-arg>
+    </bean>
+    <bean class="constructorinj.Hotel" id="h2">
+    <constructor-arg name="hname" value="nandhi_mandhi"/>
+    <constructor-arg name="loc" value="Arumbakam"/>
+    <constructor-arg name="menu">
+    <list>
+    <value>Biriyani</value>
+    <value>Chikenrice</value>
+    <value>dasert</value>
+    </list>
+    </constructor-arg>
+    </bean>
+     
+</beans>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section h1{
+            color: red;
+        }
+        section>main{
+            color: blue;
+        }
+        section>article>div{
+            color: yellow;
+        }
+        </style>
+        <style>
+        div~h2{
+            color: red;
+        }
+        div+p{
+            color: red;
+        }
+        div+article{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h1>This is outside section</h1>
+    <article>
+        <div>div present inside article</div>
+        <p>para present inside article</p>
+    </article>
+    <main>
+        <article>Article present inside main</article>
+        <div>div present inside main</div>
+    </main>
+    <div>
+        <main>main present inside div</main>
+        <p>para present inside div</p>
+        <h1>heading present inside div</h1>
+    </div>
+</section>
+
+<h2>first heading</h2>
+<p>first para</p>
+<div>first div</div>
+<p>second para</p>
+<h2>second heading</h2>
+<article>first article</article>
+<p>third para</p>
+<h2>third heading</h2> 
+</body>
+</html>

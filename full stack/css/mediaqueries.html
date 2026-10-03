@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media print{
+            p{
+                color: aqua;
+                border: 2px solid red;
+                background-color: black;
+                height: 500px;
+            }
+        }
+        @media screen and (width>1000px) {
+            p{
+                background-color: red;
+                color: black;
+            }
+            /* p::before{
+                content: "Desktop";
+            } */
+        }
+        @media screen and (width<500px) {
+            p{
+                background-color: aqua;
+                color: black;
+            }
+            /* p::before{
+                content: "mobile";
+            } */
+            
+        }
+       @media screen and (min-width:600px) and (max-width:900px){
+        p{
+            background-color: blue;
+            color: white;
+        }
+       }
+       @media screen and (orientation: landscape){
+        p{
+            background-color: black;
+            color: greenyellow;
+        }
+       }
+       @media screen and (orientation: portrait){
+        p{
+            background-color: blueviolet;
+            color: white;
+        }
+       }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quaerat voluptate fuga nihil
+         ab possimus maxime, est, vitae officia repellendus accusamus. Neque, nam. Optio nemo vel quia fuga 
+         mollitia adipisci asperiores, ab tempora consectetur, eligendi corporis, libero eum! Similique nisi 
+         illum, earum cum culpa velit voluptas corrupti accusamus ut quibusdam quasi dolorem eveniet veritatis 
+         consectetur esse, ducimus nesciunt tenetur veniam asperiores nam officia sapiente omnis? Perferendis 
+         laudantium soluta debitis quaerat recusandae voluptas! Possimus iure, dignissimos, veritatis tempora 
+         provident voluptas voluptatibus doloribus libero, sed labore accusantium quos. Ullam incidunt recusandae 
+         architecto unde asperiores quaerat veritatis error deleniti temporibus porro reiciendis minima magnam hic 
+         fugit ad, exercitationem consequatur, accusamus dicta. Cum dolores pariatur dignissimos optio nihil dolorem 
+         adipisci omnis consequuntur. Deserunt ullam corporis harum nesciunt sed nemo sapiente quos eveniet quaerat 
+         assumenda non illum labore expedita, voluptas quia nostrum? Magni quia eligendi laudantium quibusdam rem 
+         aut quod! Dignissimos corrupti voluptas praesentium pariatur aliquam! Deleniti, error fugit. Quas impedit 
+         incidunt repellat placeat perferendis fuga est perspiciatis libero provident? Quam totam harum nemo 
+         consequuntur, earum qui sint laboriosam dolorem labore alias dolor adipisci veniam at obcaecati ducimus 
+         odio eligendi laborum esse quidem asperiores itaque aut. Debitis dicta autem deserunt obcaecati, doloribus 
+         facilis nemo, accusantium esse cum quos ut ipsa, modi eius at similique. Necessitatibus magni labore quidem 
+         mollitia! Quasi dignissimos quae ullam assumenda possimus minima quos inventore odit repellendus modi vero, 
+         maxime vitae reiciendis, unde fuga quis corporis enim. Obcaecati sunt ex magni quos id molestias? Ducimus 
+         eum, qui reprehenderit sed libero odit nisi quae numquam adipisci quod nostrum doloribus alias fuga 
+         doloremque. Dolores, sequi aspernatur recusandae atque perferendis ea possimus. Pariatur earum quis sed 
+         </p>
+</body>
+</html>

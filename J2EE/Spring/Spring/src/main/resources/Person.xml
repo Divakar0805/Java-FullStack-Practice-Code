@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean class="on.AadharCard" id="a1">
+    <property name="ano" value="870149885707"/>
+    <property name="dob" value="08/05/2002"/>
+    <property name="address" value="thiruvallur"/>
+    <property name="pincode" value="001"/>
+    </bean>
+     <bean class="on.Person" id="p1">
+    <property name="id" value="1"/>
+    <property name="name" value="divakar"/>
+    <property name="gender" value="male"/>
+    <property name="phoneno" value="6380913116"/>
+    <property name="card" ref="a1"/>
+    </bean>
+</beans>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section{
+            height: 500px;
+            width: 500px;
+            border: 2px solid;
+        }
+        section div:nth-child(1){
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            position:relative;
+            left: 50px;
+            top: 100px;
+        }
+        section div:nth-child(2){
+            height: 100px;
+            width: 100px;
+            background-color:blue;
+            position:static;
+            left: 50px;
+            bottom: 50px;
+        }
+        section div:nth-child(3){
+            height: 100px;
+            width: 100px;
+            background-color:blueviolet;
+        }
+        section div:nth-child(4){
+            height: 100px;
+            width: 100px;
+            background-color:teal;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+</body>
+</html>

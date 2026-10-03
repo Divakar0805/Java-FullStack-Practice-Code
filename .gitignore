@@ -1,0 +1,39 @@
+# Eclipse
+.metadata/
+**/.metadata/
+.settings/
+**/.settings/
+.classpath
+.project
+
+# Java
+*.class
+bin/
+**/bin/
+target/
+**/target/
+
+# Maven / Gradle
+.gradle/
+**/.gradle/
+
+# Logs
+*.log
+
+# Node / React
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+
+# Temporary files
+*.tmp
+
+# Large media files
+*.mp3
+*.mp4
+*.wav
+*.zip
+*.rar

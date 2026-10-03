@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Move Image on Click</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+
+    img {
+      width: 150px;
+      height: auto;
+      transition: transform 0.5s ease;
+      cursor: pointer;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+
+  <img id="movingImage" src="https://via.placeholder.com/150" alt="Move Me">
+
+  <script>
+    const img = document.getElementById('movingImage');
+    let moved = false;
+
+    img.addEventListener('click', () => {
+      moved = !moved;
+      img.style.transform = moved ? 'translateX(200px)' : 'translateX(0)';
+    });
+  </script>
+
+</body>
+</html>

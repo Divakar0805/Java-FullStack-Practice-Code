@@ -1,0 +1,12 @@
+.cont{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont>div{
+    width: 50%;
+    background-color: white;
+    border-radius: 1em;
+    padding: 2em 1.5em;
+}

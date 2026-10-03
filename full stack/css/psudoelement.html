@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: red;
+        }
+        p::first-line{
+            color: greenyellow;
+        }
+        p::before{
+            content: "dimple";
+        }
+        p::after{
+            content: "divakar";
+        }
+        div::selection{
+            background-color: black;
+            color: red;
+        }
+        ol>li::marker{
+            content: "⚡";
+        }
+        input[type]{
+            width: 600px;
+        }
+        input[type="email"]{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <p>❤️‍🔥</p>
+    <div>fuga voluptatibus a, error minus odio quibusdam mollitia dolorum reprehenderit</div>
+
+
+    <ol>
+        <li>Rose</li>
+        <li>lily</li>
+        <li>lotus</li>
+    </ol>
+    <form action="">
+        <label for="">Username</label>
+        <input> <br><br>
+        <label for="">Email</label>
+        <input type="email"><br><br>
+        <label for="">Password</label>
+        <input type="password" name="" id="">
+    </form>
+</body>
+</html>

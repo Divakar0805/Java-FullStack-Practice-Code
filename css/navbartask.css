@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+aside{
+    padding: 0px 30px;
+}
+img[alt="Logo"]{
+    height: 40px;
+}
+aside>ul{
+    display: flex;
+    gap: 30px;
+    list-style-type:none ;
+}
+aside>button{
+    height: 30px;
+    width: 50px;
+    font-size: 0.9rem;
+    border: none;
+}

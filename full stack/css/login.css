@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2A7B9B;
+background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(190, 87, 199, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+#login{
+    height: 65%;
+    width: 24%;
+    font-size: 1rem;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+#login i{
+    font-size: 0.8rem;
+    margin-top: 50px;
+}
+form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 80px;
+    gap: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    font-weight:700;
+}
+.form input{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+#login button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2A7B9B;
+    font-size: 15px;
+    color: white;
+}
+#login p{
+    font-size: 14px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#login p span:last-child{
+    color: rgb(73, 73, 165);
+    font-weight: 800;
+    text-decoration: underline;
+    cursor: pointer;
+}

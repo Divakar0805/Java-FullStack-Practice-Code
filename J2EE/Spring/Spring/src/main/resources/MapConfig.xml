@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean class="map.Hotel" id="h1">
+    <property name="name" value="Nandhi_Mandhi"/>
+    <property name="loc" value="Arumbakam"/>
+    <property name="gstno" value="diva24"/>
+    <property name="rating" value="8.9"/>
+    <property name="menu">
+    <map>
+    <entry key="vayailaiporata" value="150"/>
+    <entry key="kothuporata" value="120"/>
+    <entry key="nuulporata" value="30"/>
+    <entry key="bunporata" value="30"/>
+    </map>
+    </property>
+    </bean>
+     
+</beans>
